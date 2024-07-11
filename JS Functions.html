@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JS Functions</title>
+</head>
+<body>
+	<h1>JavaScript Event Handling</h1>
+	<p>Sample Function that performs simple Calculation</p>
+
+	<p id="uhmm"></p>
+
+	<script>
+	//Call function and supply parameters.
+		let x = myFunction(6,7);
+		let y = myFunction(8,9);
+		document.getElementById('uhmm').innerHTML = 
+		"Answer: " + x + 
+		"<p> Answer: " + y + "</p>";
+
+	//Create a function named myFunction with 2 parameters.
+		function myFunction(a, b){
+			//compute for the total of two numbers
+			return a + b;
+		}
+
+	</script>
+
+</body>
+</html>
